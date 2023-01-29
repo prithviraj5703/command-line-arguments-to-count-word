@@ -18,6 +18,7 @@ Give print.
 ### Step 6: 
 End of the program
 ## PROGRAM:
+```python
 import sys
 count= 0
 with open(sys.argv[1],'r') as f1:
@@ -25,8 +26,10 @@ with open(sys.argv[1],'r') as f1:
         word= line.split()
         count += len(word)
 print("word count in file = ",count)
+```
 
 ### OUTPUT:
+![command line argument](https://user-images.githubusercontent.com/121418418/215334240-a1d05b72-1d22-4630-b9c6-fdc5f8455fa4.png)
 
 
 
